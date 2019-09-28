@@ -8,8 +8,6 @@ Make error pages- 404, 500, etc. generate errors to limit the amount of content 
 Try Frozen-Flask to make this static.
 Host on GitHub Pages? Point domain name there?
 
-https://johnjung.github.io/
+git subtree push --prefix build origin gh-pages
 
-from gh-pages
-
-https://stevenloria.com/hosting-static-flask-sites-on-github-pages/
+https://johnjung.github.io/design_after_the_end_of_the_world/
