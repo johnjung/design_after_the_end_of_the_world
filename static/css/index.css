@@ -52,8 +52,36 @@ table {
  * MAIN
  */
 
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: rgb(61, 126, 154);
+}
+a:link, a:visited {
+  text-decoration: none;
+}
+a:hover, a:active {
+  text-decoration: underline;
+}
 body {
   font-family: Helvetica, Arial, sans-serif;
+}
+div#content {
+  margin: 0 1em 1em 1em;
+}
+div#footer {
+  display: grid;
+  font-size: 87.5%; /* 12px */
+  grid-gap: 1em;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 3em 1em 1em 1em;
+}
+div#footer li {
+  margin-bottom: 1em;
+}
+div#hero_graphic {
+  margin: 0 1em 1em 1em;
 }
 div#ribbon {
   display: grid;
@@ -62,20 +90,13 @@ div#ribbon {
   margin-bottom: 1em;
   padding: 1em 1em 0 1em;
 }
-div#hero_graphic {
-  margin: 0 1em 1em 1em;
+div#ribbon h1 {
+  margin-bottom: 0;
 }
 div#videos {
   display: grid;
   grid-gap: 1em;
   grid-template-columns: 1fr 1fr 1fr;
-  margin: 0 1em 1em 1em;
-}
-div#footer {
-  display: grid;
-  font-size: 87.5%; /* 12px */
-  grid-gap: 1em;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
   margin: 0 1em 1em 1em;
 }
 form#sign_in button,
@@ -85,12 +106,21 @@ form#sign_up button {
 h1 {
   font-weight: bold;
   font-size: 150%;
+  margin-bottom: calc(1em / 1.5);
 }
 h2 {
   font-weight: bold;
   font-size: 125%;
+  margin-bottom: calc(1em / 1.25);
 }
 h3 {
   font-weight: bold;
   font-size: 112.5%;
+  margin-bottom: calc(1em / 1.125);
+}
+p {
+  margin-bottom: 1em;
+}
+p.username {
+  margin-top: -1em;
 }
