@@ -2,7 +2,6 @@ import json
 from flask import Flask, render_template, request
 
 app = Flask(__name__)
-app.config.from_pyfile('settings.py')
 
 @app.route("/about/")
 def about():
