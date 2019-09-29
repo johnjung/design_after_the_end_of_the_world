@@ -3,48 +3,48 @@
   <head>
     <meta charset="UTF-8">
     <title></title>
-    <link rel="stylesheet" href="/design_after_the_end_of_the_world/static/css/index.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
   </head>
   <body>
     <div id="ribbon">
       <div id="branding">
-        <h1><a href="/">Organization name</a></h1>
+        <h1><a href="{{ url_for('home') }}">Organization name</a></h1>
       </div>
-      <form id="sign_up" method="get">
-        <button type="button">Sign Up</button>
-      </form>
-      <form id="sign_in" method="get">
-        <button type="button">Sign In</button>
-      </form>
+      <div>
+        <a href="{{ url_for('sign_up') }}" id="sign_up">Sign Up</a>
+      </div>
+      <div>
+        <a href="{{ url_for('fake_server_error') }}" id="sign_in">Sign In</a>
+      </div>
     </div>
     {% block content %}{% endblock %}
     <div id="footer">
       <div>
         <ul>
-          <li><a href="/about/">item one</a></li>
-          <li><a href="/about/">item two</a></li>
-          <li><a href="/about/">item three</a></li>
+          <li><a href="{{ url_for('about') }}">item one</a></li>
+          <li><a href="{{ url_for('about') }}">item two</a></li>
+          <li><a href="{{ url_for('about') }}">item three</a></li>
         </ul>
       </div>
       <div>
         <ul>
-          <li><a href="/about/">item one</a></li>
-          <li><a href="/about/">item two</a></li>
-          <li><a href="/about/">item three</a></li>
+          <li><a href="{{ url_for('fake_server_error') }}">item four</a></li>
+          <li><a href="{{ url_for('fake_server_error') }}">item five</a></li>
+          <li><a href="{{ url_for('fake_server_error') }}">item six</a></li>
         </ul>
       </div>
       <div>
         <ul>
-          <li><a href="/about/">item one</a></li>
-          <li><a href="/about/">item two</a></li>
-          <li><a href="/about/">item three</a></li>
+          <li><a href="{{ url_for('fake_server_error') }}">item seven</a></li>
+          <li><a href="{{ url_for('fake_server_error') }}">item eight</a></li>
+          <li><a href="{{ url_for('fake_server_error') }}">item nine</a></li>
         </ul>
       </div>
       <div>
         <ul>
-          <li><a href="/about/">item one</a></li>
-          <li><a href="/about/">item two</a></li>
-          <li><a href="/about/">item three</a></li>
+          <li><a href="{{ url_for('fake_server_error') }}">item ten</a></li>
+          <li><a href="{{ url_for('fake_server_error') }}">item eleven</a></li>
+          <li><a href="{{ url_for('fake_server_error') }}">item twelve</a></li>
         </ul>
       </div>
     </div>

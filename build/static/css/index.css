@@ -64,6 +64,10 @@ a:link, a:visited {
 a:hover, a:active {
   text-decoration: underline;
 }
+a#sign_in,
+a#sign_up {
+  white-space: nowrap;
+}
 body {
   font-family: Helvetica, Arial, sans-serif;
 }
@@ -98,10 +102,6 @@ div#videos {
   grid-gap: 1em;
   grid-template-columns: 1fr 1fr 1fr;
   margin: 0 1em 1em 1em;
-}
-form#sign_in button,
-form#sign_up button {
-  white-space: nowrap;
 }
 h1 {
   font-weight: bold;

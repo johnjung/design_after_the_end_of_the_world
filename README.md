@@ -11,3 +11,11 @@ Host on GitHub Pages? Point domain name there?
 git subtree push --prefix build origin gh-pages
 
 https://johnjung.github.io/design_after_the_end_of_the_world/
+
+when the site gets published, it's not at the root. how can I deal with that?
+
+https://pythonhosted.org/Frozen-Flask/
+FREEZER_RELATIVE_URLS
+
+url_for
+relative_url_for

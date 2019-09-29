@@ -9,6 +9,12 @@ def about():
         'about.html'
     )
 
+@app.route("/server-error/")
+def fake_server_error():
+    return render_template(
+        'fake_server_error.html'
+    )
+
 @app.route("/")
 def home():
     return render_template(
@@ -19,6 +25,18 @@ def home():
 def program():
     return render_template(
         'program.html'
+    )
+
+@app.route("/sign_in/")
+def sign_in():
+    return render_template(
+        'sign_in.html'
+    )
+
+@app.route("/sign_up/")
+def sign_up():
+    return render_template(
+        'sign_up.html'
     )
 
 @app.route("/users/user/")

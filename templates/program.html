@@ -2,42 +2,48 @@
 {% block content %}
   <div id="hero_graphic">
     <h2>Program name</h2>
-    <p>Proin nec tempus est. In ut eros volutpat, condimentum libero ac,
-euismod tortor. Duis odio orci, blandit at purus vel, maximus congue massa.
-Curabitur blandit nibh in lacus porttitor pretium vel in tellus. Nam consequat
-lacus velit, non aliquam ex pretium sit amet. Lorem ipsum dolor sit amet,
-consectetur adipiscing elit. Morbi faucibus placerat lacinia.</p>
+    <p>Some text should describe what this program is about in more detail.
+We might want to make it look like there is more than one program, but there's
+no need to actually make content for more than one if we don't want to. We can
+set up screens for fake server errors or figure out other ways to manage the
+amount of content we need to create.</p>
   </div>
   <div id="videos">
     <div>
-      <h3><a href="/program/video/">Video Name</a></h3>
-      <p>Information</p>
-      <p>Description</p>
+      <h3><a href="{{ url_for('video') }}">Video Name</a></h3>
+      <div class="placeholder video_thumbnail_placeholder"></div>
+      <p>5:31</p>
+      <p>Each video should include some descriptive text.</p>
     </div>
     <div>
-      <h3><a href="/program/video/">Video Name</a></h3>
-      <p>Information</p>
-      <p>Description</p>
+      <h3><a href="{{ url_for('fake_server_error') }}">Video Name</a></h3>
+      <div class="placeholder video_thumbnail_placeholder"></div>
+      <p>2:05</p>
+      <p>Proin ipsum eros, consequat sollicitudin nisl nec, vehicula rhoncus elit.</p>
     </div>
     <div>
-      <h3><a href="/program/video/">Video Name</a></h3>
-      <p>Information</p>
-      <p>Description</p>
+      <h3><a href="{{ url_for('fake_server_error') }}">Video Name</a></h3>
+      <div class="placeholder video_thumbnail_placeholder"></div>
+      <p>8:15</p>
+      <p>Donec semper ligula eget urna molestie, at accumsan neque hendrerit.</p>
     </div>
     <div>
-      <h3><a href="/program/video/">Video Name</a></h3>
-      <p>Information</p>
-      <p>Description</p>
+      <h3><a href="{{ url_for('fake_server_error') }}">Video Name</a></h3>
+      <div class="placeholder video_thumbnail_placeholder"></div>
+      <p>3:24</p>
+      <p>Maecenas eu felis in est pretium eleifend.</p>
     </div>
     <div>
-      <h3><a href="/program/video/">Video Name</a></h3>
-      <p>Information</p>
-      <p>Description</p>
+      <h3><a href="{{ url_for('fake_server_error') }}">Video Name</a></h3>
+      <div class="placeholder video_thumbnail_placeholder"></div>
+      <p>4:17</p>
+      <p>Etiam ornare urna nisi, vitae ultrices tortor lacinia ac.</p>
     </div>
     <div>
-      <h3><a href="/program/video/">Video Name</a></h3>
-      <p>Information</p>
-      <p>Description</p>
+      <h3><a href="{{ url_for('fake_server_error') }}">Video Name</a></h3>
+      <div class="placeholder video_thumbnail_placeholder"></div>
+      <p>9:57</p>
+      <p>Sed eu porta est, fermentum malesuada diam.</p>
     </div>
   </div>
 {% endblock %}

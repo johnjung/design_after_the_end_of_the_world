@@ -1,12 +1,24 @@
 {% extends "base.html" %}
 {% block content %}
   <div id="content">
-    <h1>Home</h1>
-    <p>In non eros dignissim, tincidunt ante nec, euismod dui. Phasellus ultrices urna eros, vitae congue nisi blandit vel. Nam ac pellentesque justo. Integer aliquet imperdiet ullamcorper. Aenean et eros rutrum, blandit purus non, tincidunt urna. Fusce porta lacus in quam convallis condimentum. Sed quis pulvinar quam. Quisque id mauris urna. Praesent sit amet leo rhoncus quam porttitor auctor. Sed nulla nibh, viverra vel rutrum eget, viverra eget augue. Donec ut metus odio. Donec nisl neque, varius vel purus et, mattis consequat elit. Maecenas vulputate nec lorem venenatis euismod.</p>
+    <div id="hero_box">
+      <h1>A selling point for the organization</h1>
+      <p>Of course we're trying to sell something, but what is it? Maybe we'll tell you straight out, or maybe we won't. Discovering "the truth" in a world without newspapers or education? Surviving the apocolpyse through homesteading? Becoming a "scientist" by apprenticing with some wack job?</p>
+    </div>
 
-    <h2>Programs</h2>
-
-    <h3><a href="/program/">Program</a></h3>
-    <p>In non eros dignissim, tincidunt ante nec, euismod dui. Phasellus ultrices urna eros, vitae congue nisi blandit vel. Nam ac pellentesque justo.</p>
+    <div id="programs">
+      <div>
+        <h3><a href="{{ url_for('program') }}">Sample program one</a></h3>
+        <div class="placeholder program_placeholder"></div>
+        <p>Some descriptive text to tell you what one of this organization's 
+programs is about.</p> 
+      </div>
+      <div>
+        <h3><a href="{{ url_for('fake_server_error') }}">Sample program two</a></h3>
+        <div class="placeholder program_placeholder"></div>
+        <p>There's no need to make content for more than one program, but it
+might be fun to imply that they exist.</p>
+      </div>
+    </div>
   </div>
 {% endblock %}
