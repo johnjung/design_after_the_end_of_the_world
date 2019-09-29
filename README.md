@@ -1,21 +1,39 @@
-# index
-## To do
+# Design After the End of the World
 
-Add templates for organization home and individual video. Add template for user?
-Individual video template can include user comments.
-Make error pages- 404, 500, etc. generate errors to limit the amount of content we need to create. 
+## To Do
 
-Try Frozen-Flask to make this static.
-Host on GitHub Pages? Point domain name there?
+Coming soon...
 
-git subtree push --prefix build origin gh-pages
+## Updating this code
 
-https://johnjung.github.io/design_after_the_end_of_the_world/
+The site uses [Frozen-Flask](https://pythonhosted.org/Frozen-Flask/) to
+generate a static site from a Flask app. The static site is currently hosted on
+GitHub using [GitHub Pages](https://pages.github.com/).
 
-when the site gets published, it's not at the root. how can I deal with that?
+To hack on a local copy of the site, clone it from GitHub:
 
-https://pythonhosted.org/Frozen-Flask/
-FREEZER_RELATIVE_URLS
+```console
+$ mkdir dateotw
+$ cd dateotw
+$ python3 -m venv env
+$ source env/bin/activate
+$ git clone https://github.com/johnjung/design_after_the_end_of_the_world.git
+$ cd design_after_the_end_of_the_world
+$ pip install -r requirements.txt
+```
 
-url_for
-relative_url_for
+Run it locally using the Flask development server:
+
+```console
+$ python dateotw.py
+```
+
+Make changes using your favorite editor. After committing your changes to
+master, update the static site on GitHub Pages:
+
+```console
+$ python freeze.py
+$ git subtree push --prefix build origin gh-pages
+```
+
+[Visit the site here](https://johnjung.github.io/design_after_the_end_of_the_world/). 
