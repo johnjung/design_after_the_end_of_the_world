@@ -1,12 +1,12 @@
 # Design After the End of the World
 
-[Visit a site wireframe here](https://johnjung.github.io/design_after_the_end_of_the_world/). 
+This is a work-in-progress for a speculative design project. [Visit a site wireframe here](https://johnjung.github.io/design_after_the_end_of_the_world/). 
 
 ## Project Plan
 
 ### Step 1: Choose a direction
 
-As a group, we should decide a direction for the project. We sketched out two general ideas:
+As a group, we should decide a direction for the project. While brainstorming we sketched out two general ideas:
 
 #### Option 1: "Medieval Times"
 
