@@ -1,5 +1,7 @@
 # Design After the End of the World
 
+[Visit the site here](https://johnjung.github.io/design_after_the_end_of_the_world/). 
+
 ## To Do
 
 Coming soon...
@@ -10,7 +12,7 @@ The site uses [Frozen-Flask](https://pythonhosted.org/Frozen-Flask/) to
 generate a static site from a Flask app. The static site is currently hosted on
 GitHub using [GitHub Pages](https://pages.github.com/).
 
-To hack on a local copy of the site, clone it from GitHub:
+To hack on a local copy of the site, clone it from GitHub and install dependencies using pip:
 
 ```console
 $ mkdir dateotw
@@ -35,5 +37,3 @@ master, update the static site on GitHub Pages:
 $ python freeze.py
 $ git subtree push --prefix build origin gh-pages
 ```
-
-[Visit the site here](https://johnjung.github.io/design_after_the_end_of_the_world/). 
