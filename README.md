@@ -10,9 +10,9 @@ While brainstorming we sketched out two general ideas:
 
 #### Option 1: "Medieval Times"
 
-This is set in a dystopian future about 100 years from now. Society has entered a new medieval period, and people are interested in homesteading, farming, and defending themselves against marauders.
+This is set in a dystopian future about 100 years from now. Society has entered a neo-medieval period. Peoples interests include homesteading, farming, and defending themselves against marauders.
 
-Higher education has collapsed, but the desire to continue doing science remains. For a fee, apprentice scientists learn how to do science from a master. Much of this science is of dubious value: for example, a fermentation-powered replication machine promises to create the comforts of the 21st century, but requires users to mash materials in a large vat with their feet, like wine-making.
+The system of higher education has collapsed, but the desire to continue doing science remains. For a fee, apprentice scientists learn how to do science from a master. Much of this science is of dubious value: for example, a fermentation-powered replication machine promises to create the comforts of the 21st century, but requires users to mash materials in a large vat with their feet, like wine-making.
 
 Individual videos explore these dubious scientific efforts, and the website itself is for an organization that offers an alternative to current scientific education. 
 
