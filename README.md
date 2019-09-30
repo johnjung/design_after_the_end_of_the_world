@@ -1,6 +1,6 @@
 # Design After the End of the World
 
-This is a work-in-progress for a speculative design project. [Visit a site wireframe here](https://johnjung.github.io/design_after_the_end_of_the_world/). 
+This is work-in-progress for a speculative design project. [Visit a site wireframe here](https://johnjung.github.io/design_after_the_end_of_the_world/). 
 
 ## Project Plan
 
