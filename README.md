@@ -12,17 +12,17 @@ While brainstorming we sketched out two general ideas:
 
 This is set in a dystopian future about 100 years from now. Society has entered a neo-medieval period. Peoples interests include homesteading, farming, and defending themselves against marauders.
 
-The system of higher education has collapsed, but the desire to continue doing science remains. For a fee, apprentice scientists learn how to do science from a master. Much of this science is of dubious value: for example, a fermentation-powered replication machine promises to create the comforts of the 21st century, but requires users to mash materials in a large vat with their feet, like wine-making.
+The system of higher education has collapsed, but the desire to continue doing science remains. For a fee, apprentice scientists learn their craft from a master. Much of this science is of dubious value: for example, a fermentation-powered replication machine promises to create the comforts of the 21st century, but requires users to mash materials in a large vat with their feet, like wine-making.
 
-Individual videos explore these dubious scientific efforts, and the website itself is for an organization that offers an alternative to current scientific education. 
+Individual videos explore these dubious scientific efforts, and the website itself exists to promote an organization that offers an alternative to current scientific education. 
 
 #### Option 2: "X-Files"
 
 This is set in a dystopian version of the United States, about ten years from now. Economic and political pressures on newspapers have continued to erode people's trust in the news. Consipracy theories abound and spread quickly on the internet.
 
-This website contains short videos that offer a form of investigative reporting, although it's one that is highly paranoid and without the traditional ethics of journalism. Stories involve spying on neighbors, digging through trash, and piecing together a complicated story about a mysterious company and the environmental damage it does.
+This website contains short videos that offer a form of investigative reporting, although paranoid and without the traditional ethics of journalism. Stories involve spying on neighbors, digging through trash, and piecing together complicated stories about a mysterious company and the environmental damage it does.
 
-Individual videos explore aspects of an evolving conspiracy theory. The website itself is a type of news outlet, working to learn more about a mysterious company.
+The website itself is a type of news outlet, and individual videos explore aspects of this evolving conspiracy theory.
 
 #### Option 3: continue brainstorming
 
@@ -37,11 +37,11 @@ If neither option feels right, its ok to brainstorm some more.
 
 ### Step 3: Web development
 
-Update templates.
+Update templates. Point domain name to GitHub Pages.
 
 ### Step 4: Produce content
 
-Brainstorm ideas for individual videos, and produce videos using Adobe After Effects. 
+Brainstorm ideas and produce individual videos. 
 
 ## Technical Notes
 
