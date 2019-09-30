@@ -26,7 +26,7 @@ Individual videos explore aspects of an evolving conspiracy theory. The website 
 
 #### Option 3: continue brainstorming
 
-If neither option feels right, it's fine to keep brainstorming!
+If neither option feels right, its ok to brainstorm some more.
 
 ### Step 2: Branding, web design and copywriting
 
