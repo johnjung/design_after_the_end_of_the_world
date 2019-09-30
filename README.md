@@ -6,7 +6,7 @@ This is work-in-progress for a speculative design project. [Visit a site wirefra
 
 ### Step 1: Choose a direction
 
-As a group, we should decide a direction for the project. While brainstorming we sketched out two general ideas:
+While brainstorming we sketched out two general ideas:
 
 #### Option 1: "Medieval Times"
 
