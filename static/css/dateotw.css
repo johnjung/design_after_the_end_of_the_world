@@ -77,8 +77,8 @@ div#content {
 div#footer {
   display: grid;
   font-size: 87.5%; /* 12px */
-  grid-gap: 1em;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 1em;
+  grid-template-columns: 1fr 1fr;
   margin: 3em 1em 1em 1em;
 }
 div#footer li {
@@ -105,7 +105,7 @@ div.program_placeholder {
 div#programs {
   display: grid;
   grid-gap: 1em;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
 }
 div#ribbon {
   display: grid;
@@ -118,7 +118,7 @@ div#ribbon h1 {
   margin-bottom: 0;
 }
 div.video_placeholder {
-  height: 30em;
+  height: 12em;
   margin-bottom: 1em;
   width: 100%;
 }
@@ -130,7 +130,7 @@ div.video_thumbnail_placeholder {
 div#videos {
   display: grid;
   grid-gap: 1em;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   margin: 0 1em 1em 1em;
 }
 h1 {
@@ -153,4 +153,38 @@ p {
 }
 p.username {
   margin-top: -1em;
+}
+
+@media all and (min-width: 421px) {
+  div#footer {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  div#videos {
+    grid-template-columns: 1fr 1fr;
+  }
+  div.video_placeholder {
+    height: 20em;
+  }
+}
+
+@media all and (min-width: 769px) {
+  div#programs {
+    grid-template-columns: 1fr 1fr;
+  }
+  div#videos {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  div.video_placeholder {
+    height: 30em;
+  }
+}
+@media all and (min-width: 1201px) {
+  div#content, 
+  div#footer,
+  div#hero_graphic,
+  div#ribbon,
+  div#videos {
+    margin: 0 auto 1em auto;
+    width: calc(1200px - 2em);
+  }
 }
