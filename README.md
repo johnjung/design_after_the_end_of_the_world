@@ -32,7 +32,7 @@ If neither option feels right, its ok to brainstorm some more.
 
 1. Choose a name for the fictional organization and website. [Check to be sure an appropriate domain name is available.](https://www.domain.com)
 2. Design a wordmark for the organization.
-3. Design site templates. 
+3. Design site templates- feel free to modify elements of the wireframe.
 4. Write copy for the site itself: e.g., pages about the organization.
 
 ### Step 3: Web development
